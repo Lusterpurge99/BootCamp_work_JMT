@@ -1,63 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Pre-work Study Guide</title>
-    <style>
-        /*CSS*/
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        .topic {
-            margin-bottom: 10px;
-        }
-        .question {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        .answer {
-            margin-bottom: 15px;
-        }
-    </style>
-</head>
-<body>
-    <h1> Pre work Study Guide</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Pre work Study Guide</title>
+  </head>
 
-    <div class="topic">
+  <body>
+    <header id="top">
+      <h1> Pre work Study Guide</h1>
+      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    </header>
+
+    <main>
+      <section class="card" id="html-section">
         <h2>HTML</h2>
-        <div class="*">The head element contains information about the webpage.</div>
-        <div class="*"> body element represents the visible content shown to the user.</div>
-    </div>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+        </ul>
+      </section>
 
-    <div class="topic">
+      <section class="card" id="css-section">
         <h2>CSS</h2>
-        <div class="*">Enter CSS notes here.</div>
-    </div>
-    <div class="topic"> 
-        <h2> GitHub</h2>
-        <div class="*"> git status: checks out a branch we are currently on.</div>
-        <div class = "*">git checkout -b branch name. </div>
-    </div>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
 
-    <div class="topic">
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        </ul>
+      </section>
+
+      <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
-        <div class="answer">Enter Java notes here.</div>
-    </div>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
+    </main>
 
-    <script>
-        // JavaScript functions
-        function greetUser(name) {
-            alert("I can code!");
-        }
-
-        function calculateSquare(num) {
-            return num * num;
-        }
-    </script>
-</body>
+    <footer>
+      <p>I can code!</p>
+    </footer>
+  </body>
 </html>
